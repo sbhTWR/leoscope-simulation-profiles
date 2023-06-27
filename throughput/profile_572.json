@@ -1,0 +1,39 @@
+{
+  "trace_duration": 240,
+  "direction": "uplink",
+  "protocol": "cubic",
+  "throughput_stats": {
+    "mean": 5.92,
+    "median": 5.68,
+    "max": 10.59,
+    "min": 1.58,
+    "p95": 8.96,
+    "p5": 3.31
+  },
+  "latency_stats": {
+    "trace_duration": 239.2,
+    "spikes": {
+      "num_spike_regions": 0,
+      "spike_region_lengths": [],
+      "spike_region_losses": []
+    },
+    "loss": {
+      "loss_percentage": 0.25,
+      "num_losses": 3,
+      "latencies_near_loss_points": [
+        74.36,
+        65.18,
+        67.0
+      ],
+      "stats": {
+        "mean": 72.78,
+        "median": 71.0,
+        "min": 52.0,
+        "max": 268.0,
+        "p95": 92.0,
+        "p5": 55.0,
+        "std": 13.36
+      }
+    }
+  }
+}

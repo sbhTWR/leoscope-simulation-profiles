@@ -1,0 +1,40 @@
+{
+  "trace_duration": 240,
+  "direction": "uplink",
+  "protocol": "reno",
+  "throughput_stats": {
+    "mean": 6.36,
+    "median": 6.4,
+    "max": 12.59,
+    "min": 0.54,
+    "p95": 10.55,
+    "p5": 2.0
+  },
+  "latency_stats": {
+    "trace_duration": 239.0,
+    "spikes": {
+      "num_spike_regions": 0,
+      "spike_region_lengths": [],
+      "spike_region_losses": []
+    },
+    "loss": {
+      "loss_percentage": 0.33,
+      "num_losses": 4,
+      "latencies_near_loss_points": [
+        67.09,
+        66.73,
+        108.0,
+        67.18
+      ],
+      "stats": {
+        "mean": 69.01,
+        "median": 67.0,
+        "min": 53.0,
+        "max": 201.0,
+        "p95": 86.0,
+        "p5": 56.0,
+        "std": 11.56
+      }
+    }
+  }
+}
